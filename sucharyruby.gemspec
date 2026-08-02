@@ -9,12 +9,12 @@ Gem::Specification.new do |spec|
   spec.email = ["sucharyapi@gmail.com"]
 
   spec.summary = "Oficjalna biblioteka bazy SucharyAPI dla Ruby"
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/SucharyAPI/sucharypl-ruby"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/SucharyAPI/sucharypl-ruby"
 
   # Uncomment the line below to require MFA for gem pushes.
   # This helps protect your gem from supply chain attacks by ensuring
