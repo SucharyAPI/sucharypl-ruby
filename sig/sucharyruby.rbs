@@ -1,4 +1,7 @@
 module Sucharyruby
   VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  def self.wieleKawalow: (Integer ilosc) -> Array[String]
+  def self.wieleZartow: (Integer ilosc) -> Array[String]
+  def self.masakra: () -> String
+  def self.wieleMasakr: (Integer ilosc) -> Array[String]
 end

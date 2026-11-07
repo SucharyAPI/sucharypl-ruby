@@ -23,3 +23,15 @@ rescue Sucharyruby::KategoriaError => e
 rescue Sucharyruby::SucharyError => e
   puts "Wyłapano ogólny błąd biblioteki: #{e.message}"
 end
+
+# 4. Wiele żartów (3)
+puts "\n4. Wiele żartów (3): "
+puts Sucharyruby.wieleKawalow(3)
+
+# 5. Masakra
+puts "\n5. Masakra: "
+puts Sucharyruby.masakra
+
+# 6. Wiele masakr (3)
+puts "\n6. Wiele masakr (3): "
+puts Sucharyruby.wieleMasakr(3)
